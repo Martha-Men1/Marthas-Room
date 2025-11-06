@@ -1,0 +1,95 @@
+
+h1 {
+    font-family: "Irish Grover", cursive;
+    margin: 20px 0 20px 40px; /* adds left spacing, keeps it left-aligned */
+    padding: 0 40px;
+    font-size: 5vw;
+    display: inline-block;
+    background-color: #8C3B1C; /* burnt umber */
+    color: #FAEBD7; /* antique white */
+    box-shadow: 0 0 25px rgba(224, 185, 115, 0.4);
+    border-radius: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: #C4A484;
+    margin: 0;
+    text-align: left; /* ensures text stays aligned left */
+    font-family: Helvetica, sans-serif;
+}
+
+.project {
+  margin: 60px auto;
+  width: 90%;
+  max-width: 1100px;
+  background-color: #8C3B1C;
+  color: #FAEBD7;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.project h2 {
+  font-family: "Irish Grover", cursive;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.code-box, .output-box {
+  width: 45%;
+  min-width: 300px;
+  background: #FAEBD7;
+  color: #2d2d2d;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: left;
+}
+
+pre {
+  background: #2d2d2d;
+  color: #f8f8f2;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #8C3B1C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-link:hover {
+  text-decoration: underline;
+}
+
+
+.contact-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-buttons a {
+  display: inline-block;
+  background-color:#A0522D;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: xx-large;
+}

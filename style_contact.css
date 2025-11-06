@@ -1,0 +1,82 @@
+
+h1 {
+    font-family: "Irish Grover", cursive;
+    margin: 20px 0 20px 40px; /* adds left spacing, keeps it left-aligned */
+    padding: 0 40px;
+    font-size: 5vw;
+    display: inline-block;
+    background-color: #8C3B1C; /* burnt umber */
+    color: #FAEBD7; /* antique white */
+    box-shadow: 0 0 25px rgba(224, 185, 115, 0.4);
+    border-radius: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+body {
+    background-color: #C4A484;
+    margin: 0;
+    text-align: left; /* ensures text stays aligned left */
+    font-family: Helvetica, sans-serif;
+}
+
+form {
+  background-color: #FAEBD7;
+  color: #2d2d2d;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.3);
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #8C3B1C;
+  color: #FAEBD7;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #A0522D;
+}
+
+.contact-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-buttons a {
+  display: inline-block;
+  background-color:#A0522D;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.contact-buttons a:hover {
+  background-color:#FAEBD7 0.6;
+}

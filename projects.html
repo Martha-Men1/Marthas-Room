@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_project.css">
+</head>
+
+<body>
+
+     <h1>Projects</h1>
+
+
+
+
+<section class="project">
+  <h2>💳 Bank System (C++)</h2>
+
+  <div class="project-container">
+    <!-- Code Preview -->
+    <div class="code-box">
+      <h3>Code Snippet</h3>
+      <pre><code>
+class bank {
+    char name[100];    // The account holder name
+    char adr[100];     // The address of account holder
+    char y;            // The account type (saving = 's' or chequing = 'c')
+    float balance;     // Current account balance
+
+public:
+    // Member functions (operations on bank account)
+    void open_account();
+    void deposit_money();
+    void withdraw_money();
+    void display_account();
+};
+
+            </code></pre>
+      <a class="github-link" href="https://github.com/Martha-Men1/Bank-System" target="_blank">
+        🔗 View Full Code on GitHub
+      </a>
+    </div>
+
+    <!-- Output / Demo -->
+    <div class="output-box">
+      <h3>Program Overview</h3>
+      <p>
+        This project simulates a simple **banking system** built in C++. It allows users to:
+      </p>
+      <ul>
+        <li>Create accounts</li>
+        <li>Deposit and withdraw funds</li>
+        <li>Check balances</li>
+        <li>Securely handle input and validation</li>
+      </ul>
+      <p>
+        The program runs in a command-line environment and demonstrates OOP concepts like encapsulation and data abstraction.
+      </p>
+    </div>
+  </div>
+</section>
+
+    <section class="project">
+  <h2> Digital Clock</h2>
+
+  <div class="project-container">
+    <!-- Code Preview -->
+    <div class="code-box">
+      <h3>Code Snippet</h3>
+      <pre><code>
+
+    while (a == 0) {
+        
+        cout << "\033[2J\033[1;1H";
+        cout << h << ":" << m << ":" << s << endl;
+
+        sleep(1);  
+
+        s++;
+
+        if (s > 59) {
+            s = 0;
+            m++;
+        }
+
+        if (m > 59) {
+            m = 0;
+            h++;
+        }
+
+        if (h > 23) {  
+            h = 0;
+        }
+    }
+            </code></pre>
+      <a class="github-link" href="https://github.com/Martha-Men1/Clock-Project" target="_blank">
+        🔗 View Full Code on GitHub
+      </a>
+    </div>
+
+    <!-- Output / Demo -->
+    <div class="output-box">
+      <h3>Program Overview</h3>
+      <p>
+        This C++ console application simulates a real-time digital clock. Users input a starting hour, minute, and second; then the program continually updates the time each second, handling loops, ANSI escape codes for clearing the terminal, and cross-platform sleep functionality.  
+      </p>
+      <ul>
+        <li>Enter the starting hour, minute, and second</li>
+        <li>Displays and updates the time every second</li>
+        <li>User-input validation</li>
+        <li>Control flow with loops & conditionals</li>
+        <li>Terminal manipulation</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+     <div class="contact-buttons">
+            <a href="index.html">Home Page</a>
+    </div>
+
+</body>
+</html>
